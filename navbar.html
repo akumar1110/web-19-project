@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        #main{
+            display: flex;
+            width: 100%;
+            height: auto;
+            border: 1px solid;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            background-color: 
+            #1c2838;
+            border-radius: 10px;
+        }
+        #main>div{
+            display: flex;
+            font-size: large;
+            font-weight: bolder;
+            padding: 0px 20px;
+        }
+        #main>div:first-child{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #main>div:last-child{
+            color: white;
+            gap: 40px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        #main>div:last-child+p>a{
+            color:white;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <div>
+            <p>Reebook</p>
+        </div>
+        <div>
+            <p><a href="mens.html" style="color:white">Men</a></p>
+            <p>Women</p>
+            <p><a href="login.html" style="color:white">login</a></p>
+            <p><a href="signup.html" style="color:white">signup</a></p>
+        </div>
+    </div>
+</body>
+</html>
